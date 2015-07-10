@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  margin:0;
+  height:100%;
+  overflow:visible;
+  padding:0;
+  width:100%;
+}
+
+body {
+  font:400 14px/1.5 Helvetica, Arial, sans-serif;
+}
+
+#output{
+  background: #333;
+  color:#fff;
+  height: 100%;
+  width: 100%;
+}
+
+#output.success {
+  background-color: green;
+}
+
+#output.fail {
+  background-color: red;
+}
+
+#tests{
+  background-color: #fff;
+  width: 100%;
+}
+
+.test {
+  background: #ccc;
+  border-bottom: 1px solid #fff;
+  padding: 10px 15px;
+}
+
+.assertion {
+  display:none;
+}
+
+.success {
+  background-color: #0f0;
+  color: #fff;
+}
+
+.fail {
+  background-color: #f00;
+  color: #fff;
+}
+
+#test-frame iframe{
+  background: gray;
+  border:0;
+}
